@@ -15,7 +15,7 @@ export default function HomePage() {
         <section className='bg-dark'>
           <div className='flex flex-col items-center justify-center min-h-screen text-center text-white layout'>
             <h1 className='text-2xl md:text-4xl'>
-              <CustomLink href='https://github.com/theodorusclarence/nextjs-csr-ssg-isr'>
+              <CustomLink href='https://github.com/PranjalAgni/rendering-patterns-demo'>
                 Web Rendering Patterns demo
               </CustomLink>
             </h1>
