@@ -28,6 +28,7 @@ export default function SSGPage({ dateTime }: SSGPageProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
+  console.log('SSG: API is being called at server side');
   const res = await axios.get<TimeResponse>('https://worldtimeapi.org/api/ip');
 
   return {

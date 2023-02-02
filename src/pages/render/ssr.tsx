@@ -28,6 +28,7 @@ export default function SSRPage({ dateTime }: SSRPageProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
+  console.log('SSR: API is being called at server side');
   const res = await axios.get<TimeResponse>('https://worldtimeapi.org/api/ip');
 
   return {
