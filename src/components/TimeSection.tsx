@@ -4,7 +4,6 @@ import { format } from 'date-fns';
 import useRealTime from '@/hooks/useRealTime';
 
 import ButtonLink from './links/ButtonLink';
-import CustomLink from './links/CustomLink';
 
 type TimeSectionProps = {
   dateTime: string | undefined;

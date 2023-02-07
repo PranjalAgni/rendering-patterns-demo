@@ -9,8 +9,7 @@
     "prepare": "husky install",
     "lint": "next lint",
     "release": "standard-version",
-    "format": "prettier --write .",
-    "postbuild": "next-sitemap"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.3",
